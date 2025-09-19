@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer components {
+   .diagram-box {
+      @apply border rounded-md p-3 transition-all duration-200 hover:shadow-md;
+   }
+ 
+   .client-box {
+      @apply border-blue-500;
+   }
+
+   .server-box {
+      @apply border-green-500;
+   }
+
+   .service-box {
+      @apply border-yellow-500;
+   }
+
+   .role-box {
+      @apply border-orange-500;
+   }
+
+   .module-box {
+      @apply border-purple-500;
+   }
+
+   .compact-item {
+      @apply flex items-center gap-2 py-1 text-sm;
+   }
+
+   .arrow-line {
+      @apply stroke-gray-600 stroke-2 fill-none;
+   }
+
+   .arrow-head {
+      @apply fill-gray-600;
+   }
+}
