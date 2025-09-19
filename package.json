@@ -1,0 +1,57 @@
+{{
+
+  "name": "edu-khel-architecture",   "name": "edu-khel-architecture",
+
+  "private": true,   "private": true,
+
+  "version": "0.0.0",   "version": "0.0.0",
+
+  "type": "module",   "type": "module",
+
+  "scripts": {   "scripts": {
+
+    "dev": "vite",      "dev": "vite",
+
+    "build": "vite build",      "build": "vite build",
+
+    "lint": "eslint .",      "preview": "vite preview"
+
+    "preview": "vite preview"   },
+
+  },   "keywords": [],
+
+  "dependencies": {   "author": "",
+
+    "lucide-react": "^0.462.0",   "license": "ISC",
+
+    "react": "^18.3.1",   "description": "",
+
+    "react-dom": "^18.3.1",   "dependencies": {
+
+    "react-icons": "^5.3.0"      "@tailwindcss/vite": "^4.1.13",
+
+  },      "@vitejs/plugin-react": "^5.0.3",
+
+  "devDependencies": {      "lucide-react": "^0.544.0",
+
+    "@eslint/js": "^9.13.0",      "react": "^19.1.1",
+
+    "@tailwindcss/vite": "^4.0.0-alpha.30",      "react-dom": "^19.1.1",
+
+    "@types/react": "^18.3.12",      "react-icons": "^5.5.0",
+
+    "@types/react-dom": "^18.3.1",      "tailwindcss": "^4.1.13",
+
+    "@vitejs/plugin-react": "^4.3.3",      "vite": "^7.1.6"
+
+    "eslint": "^9.13.0",   }
+
+    "eslint-plugin-react": "^7.37.2",}
+
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "tailwindcss": "^4.0.0-alpha.30",
+    "vite": "^6.0.1"
+  }
+}
